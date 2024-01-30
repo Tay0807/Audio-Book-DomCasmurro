@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Book</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+</head>
+<body>
+    <div id="Container-Book">
+        <img src="./images/dom-casmurro.jpeg" alt="Capa do livro Dom casmurro, de Machado de Assis">
+        <div id="Container-info">
+            <p id="p-capitulo">Capítulo 1</p>
+            <p id="p-autor">Machado de Assis</p>
+        </div>
+        <audio id="faixa-audio" src="./books/dom-casmurro/1.mp3"></audio>
+        <div id="Container-botãos">
+            <button id="bnt-voltar" class="container-bnt bi bi-skip-backward-fill"></button>
+            <button id="controle-play" class="container-bnt bi bi-play-circle-fill" ></button>
+            <button id="bnt-avancar" class="container-bnt bi bi-skip-forward-fill"></button>
+        </div>
+    </div>
+        
+        
+</body>
+
+<script src="./script.js"></script>
+</html>

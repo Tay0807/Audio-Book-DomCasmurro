@@ -1,0 +1,37 @@
+body{
+    background-color: rgba(43, 220, 226, 0.312);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#Container-Book{
+    padding: 20px;
+    background-color: rgb(156, 209, 207);
+    box-shadow: rgba(0, 0, 0, 0.2) 7px 7px 7px 2px;
+}
+
+#p-capitulo{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#p-autor{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+.container-bnt{
+    background-color: transparent;
+    border: none;
+    height: 40px;
+    width: 60px;
+    cursor: pointer;
+}
+
+
+
